@@ -13355,6 +13355,19 @@
 		(layer "Edge.Cuts")
 		(uuid "1f3fd9aa-c8c1-4886-93bd-f910e54b5c54")
 	)
+	(gr_text "8bit Decoder Visualizer\nRev.1"
+		(at 116.84 76.2 270)
+		(layer "F.SilkS")
+		(uuid "90ec8d8b-20c8-401d-804e-b40f43f6ec06")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SW_SPDT"
 		(at 178.61 126.492 90)
 		(layer "F.Fab")
