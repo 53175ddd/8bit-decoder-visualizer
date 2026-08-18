@@ -23,7 +23,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "display:LED_Display_Module"
 			(at 0 12.7 0)
 			(effects
 				(font
