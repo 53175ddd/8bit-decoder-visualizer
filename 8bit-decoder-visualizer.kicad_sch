@@ -2498,7 +2498,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 33.02) (xy 177.8 33.02)
+			(xy 190.5 41.91) (xy 203.2 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2558,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 43.18) (xy 177.8 43.18)
+			(xy 241.3 44.45) (xy 228.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 27.94) (xy 177.8 27.94)
+			(xy 190.5 39.37) (xy 203.2 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3028,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 35.56) (xy 177.8 35.56)
+			(xy 190.5 46.99) (xy 203.2 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3058,7 +3058,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 38.1) (xy 177.8 38.1)
+			(xy 190.5 49.53) (xy 203.2 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3288,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 25.4) (xy 177.8 25.4)
+			(xy 190.5 36.83) (xy 203.2 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3438,7 +3438,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 45.72) (xy 177.8 45.72)
+			(xy 241.3 46.99) (xy 228.6 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3978,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 50.8) (xy 177.8 50.8)
+			(xy 241.3 52.07) (xy 228.6 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4008,7 +4008,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 30.48) (xy 177.8 30.48)
+			(xy 190.5 44.45) (xy 203.2 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4018,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 40.64) (xy 177.8 40.64)
+			(xy 190.5 52.07) (xy 203.2 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4048,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 48.26) (xy 177.8 48.26)
+			(xy 241.3 49.53) (xy 228.6 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4067,7 +4067,7 @@
 		(uuid "febcfdee-8266-4982-9b1e-27674ca451c2")
 	)
 	(label "LED_LAT"
-		(at 165.1 30.48 0)
+		(at 190.5 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4166,7 +4166,7 @@
 		(uuid "2ab3a85f-fd79-4d73-a14f-76f513d25b76")
 	)
 	(label "LED_SDI"
-		(at 165.1 25.4 0)
+		(at 190.5 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4177,7 +4177,7 @@
 		(uuid "3c5f3221-ddfd-429a-a458-152a59ebff99")
 	)
 	(label "LED_EN"
-		(at 165.1 33.02 0)
+		(at 190.5 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4221,13 +4221,13 @@
 		(uuid "6ea69bbf-71e9-47f0-bfa1-7b2af650f3b3")
 	)
 	(label "READ_1"
-		(at 165.1 45.72 0)
+		(at 241.3 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6ee8921a-c6fb-4a82-ac66-4a5165b0e1b1")
 	)
@@ -4298,13 +4298,13 @@
 		(uuid "8b81dc81-3b88-4ca7-8091-905abd8091f9")
 	)
 	(label "READ_3"
-		(at 165.1 50.8 0)
+		(at 241.3 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8db061f5-6622-4047-996f-212765afb82b")
 	)
@@ -4342,7 +4342,7 @@
 		(uuid "93d02b96-215f-402f-8d66-15f7b9ca7f7e")
 	)
 	(label "SCAN_0"
-		(at 165.1 38.1 0)
+		(at 190.5 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4353,29 +4353,29 @@
 		(uuid "9889913b-ba67-4200-8611-c8cd846673b7")
 	)
 	(label "READ_0"
-		(at 165.1 43.18 0)
+		(at 241.3 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9b0d53e9-8755-4d63-a916-deaf39d9f767")
 	)
 	(label "READ_2"
-		(at 165.1 48.26 0)
+		(at 241.3 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9fe516a1-f9ae-42bb-a955-35486e4d674a")
 	)
 	(label "SCAN_1"
-		(at 165.1 40.64 0)
+		(at 190.5 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4485,7 +4485,7 @@
 		(uuid "de4cbc0d-f8ee-4239-9f8f-751445bb7544")
 	)
 	(label "LED_CLK"
-		(at 165.1 27.94 0)
+		(at 190.5 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4540,7 +4540,7 @@
 		(uuid "e7fe7c51-072d-42bd-a080-bdb9727fe7c2")
 	)
 	(label "LED_CLR"
-		(at 165.1 35.56 0)
+		(at 190.5 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
