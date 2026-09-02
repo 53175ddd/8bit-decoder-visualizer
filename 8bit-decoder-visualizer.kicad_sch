@@ -3900,7 +3900,6 @@
 	)
 	(label "LED_LAT"
 		(at 190.5 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3911,7 +3910,6 @@
 	)
 	(label "LED_EN"
 		(at 64.77 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3922,7 +3920,6 @@
 	)
 	(label "LED_SDI"
 		(at 20.32 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3933,7 +3930,6 @@
 	)
 	(label "LED_CLR"
 		(at 109.22 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3944,7 +3940,6 @@
 	)
 	(label "LED_LAT"
 		(at 109.22 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3955,7 +3950,6 @@
 	)
 	(label "LED_CLR"
 		(at 109.22 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3966,7 +3960,6 @@
 	)
 	(label "LED_LAT"
 		(at 64.77 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3977,7 +3970,6 @@
 	)
 	(label "LED_CLR"
 		(at 64.77 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3988,7 +3980,6 @@
 	)
 	(label "LED_CLK"
 		(at 64.77 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3999,7 +3990,6 @@
 	)
 	(label "LED_SDI"
 		(at 190.5 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4010,7 +4000,6 @@
 	)
 	(label "LED_EN"
 		(at 190.5 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4021,7 +4010,6 @@
 	)
 	(label "READ_0"
 		(at 196.85 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4032,7 +4020,6 @@
 	)
 	(label "LED_LAT"
 		(at 20.32 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4043,7 +4030,6 @@
 	)
 	(label "LED_CLK"
 		(at 109.22 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4054,7 +4040,6 @@
 	)
 	(label "READ_1"
 		(at 241.3 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4065,7 +4050,6 @@
 	)
 	(label "LED_EN"
 		(at 64.77 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4076,7 +4060,6 @@
 	)
 	(label "LED_CLK"
 		(at 22.86 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,7 +4070,6 @@
 	)
 	(label "LED_EN"
 		(at 20.32 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4098,7 +4080,6 @@
 	)
 	(label "LED_EN"
 		(at 22.86 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4109,7 +4090,6 @@
 	)
 	(label "LED_LAT"
 		(at 109.22 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4120,7 +4100,6 @@
 	)
 	(label "LED_LAT"
 		(at 64.77 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4131,7 +4110,6 @@
 	)
 	(label "READ_3"
 		(at 241.3 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4142,7 +4120,6 @@
 	)
 	(label "LED_CLR"
 		(at 20.32 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4153,7 +4130,6 @@
 	)
 	(label "SCAN_1"
 		(at 273.05 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4164,7 +4140,6 @@
 	)
 	(label "READ_2"
 		(at 247.65 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4175,7 +4150,6 @@
 	)
 	(label "SCAN_0"
 		(at 190.5 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4186,7 +4160,6 @@
 	)
 	(label "READ_0"
 		(at 241.3 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4197,7 +4170,6 @@
 	)
 	(label "READ_2"
 		(at 241.3 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4208,7 +4180,6 @@
 	)
 	(label "SCAN_1"
 		(at 190.5 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4219,7 +4190,6 @@
 	)
 	(label "LED_CLR"
 		(at 20.32 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4230,7 +4200,6 @@
 	)
 	(label "LED_CLK"
 		(at 109.22 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4241,7 +4210,6 @@
 	)
 	(label "READ_1"
 		(at 222.25 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4252,7 +4220,6 @@
 	)
 	(label "LED_EN"
 		(at 109.22 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4263,7 +4230,6 @@
 	)
 	(label "LED_CLR"
 		(at 22.86 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4274,7 +4240,6 @@
 	)
 	(label "LED_EN"
 		(at 109.22 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4285,7 +4250,6 @@
 	)
 	(label "LED_LAT"
 		(at 22.86 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4296,7 +4260,6 @@
 	)
 	(label "READ_3"
 		(at 273.05 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4307,7 +4270,6 @@
 	)
 	(label "SCAN_0"
 		(at 273.05 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4318,7 +4280,6 @@
 	)
 	(label "LED_CLK"
 		(at 190.5 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4329,7 +4290,6 @@
 	)
 	(label "LED_CLR"
 		(at 64.77 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4340,7 +4300,6 @@
 	)
 	(label "LED_CLK"
 		(at 64.77 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4351,7 +4310,6 @@
 	)
 	(label "LED_CLK"
 		(at 20.32 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4362,7 +4320,6 @@
 	)
 	(label "LED_LAT"
 		(at 20.32 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4373,7 +4330,6 @@
 	)
 	(label "LED_CLR"
 		(at 190.5 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4384,7 +4340,6 @@
 	)
 	(label "LED_CLK"
 		(at 20.32 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4395,7 +4350,6 @@
 	)
 	(label "LED_EN"
 		(at 20.32 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5077,7 +5031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 99.06 166.3699 0)
 			(effects
 				(font
@@ -5542,7 +5496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 189.23 77.4699 0)
 			(effects
 				(font
@@ -6019,7 +5973,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 63.5 158.75 90)
 			(effects
 				(font
@@ -6088,7 +6042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 240.03 77.4699 0)
 			(effects
 				(font
@@ -6157,7 +6111,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 63.5 168.91 90)
 			(effects
 				(font
@@ -6292,7 +6246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 214.63 77.4699 0)
 			(effects
 				(font
@@ -6571,7 +6525,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 63.5 166.37 90)
 			(effects
 				(font
@@ -7429,7 +7383,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 63.5 161.29 90)
 			(effects
 				(font
@@ -7497,7 +7451,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 63.5 156.21 90)
 			(effects
 				(font
@@ -7631,7 +7585,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 63.5 153.67 90)
 			(effects
 				(font
@@ -7877,7 +7831,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 63.5 151.13 90)
 			(effects
 				(font
@@ -8641,7 +8595,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 63.5 163.83 90)
 			(effects
 				(font
@@ -8781,7 +8735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 265.43 77.4699 0)
 			(effects
 				(font
