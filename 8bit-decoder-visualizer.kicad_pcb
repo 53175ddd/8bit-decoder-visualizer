@@ -11684,7 +11684,7 @@
 		(layer "Edge.Cuts")
 		(uuid "e912eb12-3365-4da3-af00-3ab81ff889ee")
 	)
-	(gr_text "8bit Decoder Visualizer\nRev.2"
+	(gr_text "8bit Decoder Visualizer\nRev.1.1"
 		(at 121.92 83.82 270)
 		(layer "F.SilkS")
 		(uuid "90ec8d8b-20c8-401d-804e-b40f43f6ec06")

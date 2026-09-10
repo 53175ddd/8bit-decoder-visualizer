@@ -1,4 +1,4 @@
-#define REV_2
+#define REV_1_1
 
 #define LED_SDI  D0
 #define LED_CLK  D1
@@ -108,7 +108,7 @@ void display(int8_t n) {
   }
 #endif
 
-#ifdef REV_2
+#ifdef REV_1_1
   uint8_t vram[6] = {0};
 
   vram[0] = n;
