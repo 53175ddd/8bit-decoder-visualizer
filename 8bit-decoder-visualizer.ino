@@ -1,3 +1,5 @@
+#define REV_2
+
 #define LED_SDI  D0
 #define LED_CLK  D1
 #define LED_EN   D2
@@ -76,6 +78,7 @@ uint8_t read_switch(void) {
 }
 
 void display(int8_t n) {
+#ifdef REV_1
   uint8_t vram[7] = {0};
 
   vram[0] = n;
@@ -103,8 +106,38 @@ void display(int8_t n) {
   if(vram[2] == font[0]) {
     vram[2] = 0;
   }
+#endif
 
-  for(int8_t i = 0; i < 7; i++) {
+#ifdef REV_2
+  uint8_t vram[6] = {0};
+
+  vram[0] = n;
+
+  vram[5] = vram[0] / 100;
+  vram[4] = (vram[0] / 10) % 10;
+  vram[3] = vram[0] % 10;
+  vram[2] = vram[0] >> 4;
+  vram[1] = vram[0] & 0x0F;
+
+  vram[5] = font[vram[5]];
+  vram[4] = font[vram[4]];
+  vram[3] = font[vram[3]];
+  vram[2] = font[vram[2]];
+  vram[1] = font[vram[1]];
+
+  if(vram[5] == font[0]) {
+    vram[5] = 0;
+    if(vram[4] == font[0]) {
+      vram[4] = 0;
+    }
+  }
+
+  if(vram[2] == font[0]) {
+    vram[2] = 0;
+  }
+#endif
+
+  for(int8_t i = 0; i < sizeof(vram); i++) {
     send595(vram[i]);
   }
   latch595();
