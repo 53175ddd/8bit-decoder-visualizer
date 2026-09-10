@@ -3,4 +3,5 @@
   (lib (name "display")(type "KiCad")(uri "${KIPRJMOD}/../addons/display.pretty")(options "")(descr ""))
   (lib (name "board")(type "KiCad")(uri "${KIPRJMOD}/../addons/board.pretty")(options "")(descr ""))
   (lib (name "sw")(type "KiCad")(uri "${KIPRJMOD}/../addons/sw.pretty")(options "")(descr ""))
+  (lib (name "led")(type "KiCad")(uri "${KIPRJMOD}/../addons/led.pretty")(options "")(descr ""))
 )
