@@ -78,6 +78,11 @@ uint8_t read_switch(void) {
 }
 
 void display(int8_t n) {
+  static int8_t prev = -1;
+
+  if(prev == n) return;
+  prev = n;
+
 #ifdef REV_1
   uint8_t vram[7] = {0};
 
