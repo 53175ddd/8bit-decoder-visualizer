@@ -4,6 +4,10 @@
 
 <img width="2559" height="1528" alt="image" src="https://github.com/user-attachments/assets/ce00bcb3-c4d4-459f-bb7f-9d45f072069a" />
 
+動作イメージ（YouTube に飛びます）
+
+[![youtube](https://i.ytimg.com/vi/ziqk_MC2Dsg/hq720.jpg)](https://www.youtube.com/watch?v=ziqk_MC2Dsg)
+
 ## 部品表
 
 | 部品番号 | 部品名 | 個数 | リンク |
