@@ -16704,7 +16704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "led:C-2570SR"
 			(at 330.2 25.4 0)
 			(effects
 				(font
