@@ -21,3 +21,8 @@
 | U1 ~ U6 | 7 セグメント LED モジュール | 6 | [110360](<https://akizukidenshi.com/catalog/g/g110360/>) |
 | U7 | 74HC595 | 1 | [131760](<https://akizukidenshi.com/catalog/g/g131760/>) |
 | U8 | Seeed XIAO | 1 | [117044](<https://akizukidenshi.com/catalog/g/g117044/>) |
+
+---
+
+<a href="https://github.com/53175ddd/8bit-decoder-visualizer">This work</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></br>
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
