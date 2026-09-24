@@ -14,6 +14,10 @@
 
 const uint8_t font[] = {0b11111100, 0b01100000, 0b11011010, 0b11110010, 0b01100110, 0b10110110, 0b10111110, 0b11100000, 0b11111110, 0b11110110, 0b11101110, 0b00111110, 0b00011010, 0b01111010, 0b10011110, 0b10001110};
 
+const int8_t _scan[2] = {SCAN_0, SCAN_1};
+const int8_t _read[4] = {READ_0, READ_1, READ_2, READ_3};
+
+
 void init_io(void) {
   pinMode(LED_SDI, OUTPUT);
   pinMode(LED_CLK, OUTPUT);
@@ -21,15 +25,14 @@ void init_io(void) {
   pinMode(LED_LAT, OUTPUT);
   pinMode(LED_CLR, OUTPUT);
 
-  pinMode(SCAN_0, OUTPUT);
-  pinMode(SCAN_1, OUTPUT);
-  digitalWrite(SCAN_0, HIGH);
-  digitalWrite(SCAN_1, HIGH);
+  for(int8_t s = 0; s < 2; s++) {
+    pinMode(_scan[s], OUTPUT);
+    digitalWrite(_scan[s], HIGH);
+  }
 
-  pinMode(READ_0,  INPUT);
-  pinMode(READ_1,  INPUT);
-  pinMode(READ_2,  INPUT);
-  pinMode(READ_3,  INPUT);
+  for(int8_t r = 0; r < 4; r++) {
+    pinMode(_read[r],  INPUT);
+  }
 }
 
 void clear595(void) {
@@ -54,25 +57,18 @@ void latch595(void) {
 uint8_t read_switch(void) {
   uint8_t res = 0;
 
-  digitalWrite(SCAN_0,  LOW);
-  delayMicroseconds(20);
+  for(int8_t s = 0; s < 2; s++) digitalWrite(_scan[s], HIGH);
 
-  res = (res << 1) + (digitalRead(READ_0) == HIGH ? 0 : 1);
-  res = (res << 1) + (digitalRead(READ_1) == HIGH ? 0 : 1);
-  res = (res << 1) + (digitalRead(READ_2) == HIGH ? 0 : 1);
-  res = (res << 1) + (digitalRead(READ_3) == HIGH ? 0 : 1);
+  for(int8_t s = 0; s < 2; s++) {
+    digitalWrite(scan[s],  LOW);
+    delayMicroseconds(20);
 
-  digitalWrite(SCAN_0, HIGH);
+    for(int8_t r = 0; r < 4; r++) {
+      res = (res << 1) + (digitalRead(_read[r]) == HIGH ? 0 : 1);
+    }
 
-  digitalWrite(SCAN_1,  LOW);
-  delayMicroseconds(20);
-
-  res = (res << 1) + (digitalRead(READ_0) == HIGH ? 0 : 1);
-  res = (res << 1) + (digitalRead(READ_1) == HIGH ? 0 : 1);
-  res = (res << 1) + (digitalRead(READ_2) == HIGH ? 0 : 1);
-  res = (res << 1) + (digitalRead(READ_3) == HIGH ? 0 : 1);
-
-  digitalWrite(SCAN_1, HIGH);
+    digitalWrite(_scan[s], HIGH);
+  }
 
   return res;
 }
