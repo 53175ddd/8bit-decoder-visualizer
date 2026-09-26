@@ -6058,6 +6058,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 100.33) (xy 78.74 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21e5502-df03-49bd-b8c6-3b00360c821a")
+	)
+	(wire
+		(pts
 			(xy 156.21 132.08) (xy 187.96 132.08)
 		)
 		(stroke
@@ -6538,6 +6548,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 97.79) (xy 48.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c4cfb5-f502-43b1-a30f-edb145099d23")
+	)
+	(wire
+		(pts
 			(xy 212.09 63.5) (xy 212.09 73.66)
 		)
 		(stroke
@@ -6545,6 +6565,16 @@
 			(type default)
 		)
 		(uuid "e8df9334-e3f5-49d9-a06c-5db4d572eeda")
+	)
+	(wire
+		(pts
+			(xy 33.02 100.33) (xy 48.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91c7fba-ba48-49be-9f3c-f1ac7a9c1c23")
 	)
 	(wire
 		(pts
@@ -6645,6 +6675,16 @@
 			(type default)
 		)
 		(uuid "f24258ea-067d-479b-b4b9-f72eabad07b4")
+	)
+	(wire
+		(pts
+			(xy 93.98 102.87) (xy 78.74 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f282cc8d-3723-4b0d-847d-f4be14cde79e")
 	)
 	(wire
 		(pts
@@ -6788,6 +6828,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 105.41) (xy 78.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6bf358-c35c-4a5d-acf4-f50828007498")
+	)
+	(wire
+		(pts
 			(xy 88.9 226.06) (xy 88.9 228.6)
 		)
 		(stroke
@@ -6845,6 +6895,16 @@
 			(justify left bottom)
 		)
 		(uuid "03092439-d7d0-4392-9c90-618474b9168b")
+	)
+	(label "HC595_EN"
+		(at 33.02 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0398ada5-76fa-4aba-8638-fea55f5fb0ae")
 	)
 	(label "SINK_1A"
 		(at 284.48 90.17 0)
@@ -7496,6 +7556,16 @@
 		)
 		(uuid "892e839d-4a09-4f0f-a3c7-791cce022d99")
 	)
+	(label "HC595_DIN"
+		(at 93.98 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a056cc7-e92b-47a1-a144-4f56ea9b7b52")
+	)
 	(label "READ_1"
 		(at 133.35 72.39 180)
 		(effects
@@ -7836,6 +7906,16 @@
 		)
 		(uuid "c981cdc4-fff4-4539-8d48-c71f0ac0a856")
 	)
+	(label "HC595_CLEAR"
+		(at 93.98 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cbae5636-efed-4c0b-8338-d14f230973de")
+	)
 	(label "SINK_1D"
 		(at 165.1 167.64 180)
 		(effects
@@ -7896,6 +7976,16 @@
 		)
 		(uuid "d35df6a3-1bbb-43fd-919d-7e287d4728cf")
 	)
+	(label "HC595_LATCH"
+		(at 33.02 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d39152df-11a6-4a66-b8b4-a642742c7e1f")
+	)
 	(label "SINK_1A"
 		(at 165.1 160.02 180)
 		(effects
@@ -7955,6 +8045,16 @@
 			(justify left bottom)
 		)
 		(uuid "d864a58b-8ea0-46e3-bde6-ec03a222c176")
+	)
+	(label "HC595_CLOCK"
+		(at 93.98 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8650d8e-43b3-4d1a-ac8a-99902b2a1e49")
 	)
 	(label "SOURCE_1A"
 		(at 184.15 109.22 180)
